@@ -1,3 +1,8 @@
+/*
+Author: Karim Q.
+Date: ~2019
+*/
+
 void setup() {
   pinMode(4,INPUT); //right ps  
   pinMode(7,INPUT); //left ps

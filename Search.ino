@@ -1,3 +1,8 @@
+/*
+Author: Karim Q.
+Date: ~2019
+*/
+
 int orimil = 0;
 int searchinterval = 1000;
 int i=0;

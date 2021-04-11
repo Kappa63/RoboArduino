@@ -2,7 +2,6 @@
 Author: Karim Q.
 Date: ~2019
 */
-
 #define RM1 3
 #define RM2 5
 #define LM1 6

@@ -2,7 +2,6 @@
 Author: Karim Q.
 Date: ~2019
 */
-
 #define interrupt 2
 #define IRsideR 10
 #define IRsideL 12

@@ -2,7 +2,6 @@
 Author: Karim Q.
 Date: ~2019
 */
-
 #define motorright1 3
 #define motorright2 5
 #define motorleft1 6

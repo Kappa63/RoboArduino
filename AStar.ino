@@ -167,7 +167,7 @@ void goToPoint(int pos){
 
 void movePoint(int n){
   switch(n-curPos){
-    case 6:
+    case COLUMNS:
       switch(curDirection){
         case Front:
           turnRight90();
@@ -187,7 +187,7 @@ void movePoint(int n){
           break;
       }
       break;
-    case -6:
+    case -COLUMNS:
       switch(curDirection){
         case Front:
           turnLeft90();
@@ -259,10 +259,10 @@ void moveSqrs(int n){
       curPos += 1*n;
       break;
     case Left:
-      curPos += -6*n;
+      curPos += -COLUMNS*n;
       break;
     case Right:
-      curPos += 6*n;
+      curPos += COLUMNS*n;
       break;
     case Back:
       curPos += -1*n;
@@ -418,7 +418,7 @@ void AStar(){
       }
     qPos--;
     goToPoint(pnt);
-    if(pnt == endPnt || pnt == endPnt+1 || endPnt == pnt+6 || endPnt == pnt+7) break;
+    if(pnt == endPnt || pnt == endPnt+1 || endPnt == pnt+COLUMNS || endPnt == pnt+COLUMNS+1) break;
     if(!checkDir(Front)){
       switch(curDirection){
         case Front:
